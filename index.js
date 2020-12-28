@@ -15,4 +15,4 @@ const titleCased = () => {
   return tutorials;
 }
 
-let capitalize=tutorials.map(titleCased,tutorial => tutorial.charAt(0).toUpperCase());
+let capitalize=tutorials.map(tutorial => tutorial.charAt(0).toUpperCase());
